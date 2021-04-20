@@ -1,28 +1,85 @@
-body{
-  margin:0px;
+body {
+  margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   background-color: hsl(210, 46%, 95%);
 }
 
-section{
+section {
+  margin-top: 250px;
   display: grid;
-  grid-template-columns: 450px 800px;
-  grid-template-rows: 400px;
+  grid-template-columns: 400px 450px;
+  grid-template-rows: 300px;
+  justify-content: center;
 }
 
-.desk img{
+.Info {
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: white;
+  padding-right: 20px;
+}
+
+.desk{
+  text-align: right;
+}
+
+.desk img {
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
 }
 
-img{
+img {
   max-width: 100%;
   max-height: 100%;
 }
 
-.avatar{ 
+.profile {
+  box-sizing: border-box;
+  width: 100%;
+  margin-left: 40px;
+  margin-top: 30px;
+  padding-right: 20px;
+  display: grid;
+  grid-template-columns: 15% 70% 10%}
+
+.avatar {
+  border-radius: 50%;
   width: 50px;
   height: 50px;
+}
+
+.paras {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.large {
+  font-size: 22px;
+}
+
+.small {
+  font-size: 13px;
+  color: hsl(212, 23%, 69%);
+}
+
+.last-sec{
+  padding: 10px;
+}
+
+.last-sec p{
+  margin: 0px;
+}
+
+.arrow {
+  border:white solid 1px;
+  background-color: hsl(210, 46%, 95%);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+  padding: 5px;
 }
